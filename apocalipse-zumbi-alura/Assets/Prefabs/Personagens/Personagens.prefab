@@ -2479,7 +2479,7 @@ GameObject:
   - component: {fileID: 1273385035}
   m_Layer: 0
   m_Name: Personagens
-  m_TagString: Untagged
+  m_TagString: Jogador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2567,6 +2567,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Velocidade: 10
+  MascaraPiso:
+    serializedVersion: 2
+    m_Bits: 0
+  TextoGameOver: {fileID: 0}
+  Vivo: 1
 --- !u!1 &1938851689004064
 GameObject:
   m_ObjectHideFlags: 0

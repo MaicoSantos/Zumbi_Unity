@@ -45,9 +45,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Bala.cs" />
+     <Compile Include="Assets\Scripts\ControlaArma.cs" />
      <Compile Include="Assets\Scripts\ControlaCamera.cs" />
+     <Compile Include="Assets\Scripts\ControlaInimigo.cs" />
      <Compile Include="Assets\Scripts\ControlaJogador.cs" />
-     <Compile Include="Assets\Scripts\controlaInimigo.cs" />
+     <Compile Include="Assets\Scripts\GeradorZumbis.cs" />
      <None Include="Assets\Modelos3D\Personagens\Animacoes\Animacoes.txt" />
      <None Include="Assets\Modelos3D\Personagens\Animacoes\Animacoes_Zumbi.txt" />
  <Reference Include="UnityEngine">
